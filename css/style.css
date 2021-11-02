@@ -148,7 +148,9 @@ header{
    margin: 0 auto;
    width:100px;
    height: 100px;
-   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    background: linear-gradient(to right,
    #48baff 0%,
    #48baff 50%,
@@ -156,17 +158,25 @@ header{
    #5fc3ff 100% 
    );
 }
-.s_img img{
-	position: absolute;
-	top:25px;
-	right:34px;
-	transform: translatexy(-50% -50%);
+.ic_img img{
+	width: 100%;
 }
 /*service end*/
 /*portfolio start*/
 .work{
 	padding: 40px 0 70px;
 	background:#f6f9f9;
+}
+.w_text{
+	text-align: center;
+}
+.w_text h2{
+	margin: 0;
+	font-size: 40px;
+	color: #2d3950;
+}
+.w_text p{
+	margin-bottom: 40px;
 }
 .w-photos{
 	display: flex;
